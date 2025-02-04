@@ -1,7 +1,12 @@
 import React from "react";
 
-const Portfolio = () => {
-  return <div></div>;
-};
+// Sections
+import { HeroSection } from "@/sections";
+
+const Portfolio = () => (
+  <>
+    <HeroSection />
+  </>
+);
 
 export default Portfolio;
