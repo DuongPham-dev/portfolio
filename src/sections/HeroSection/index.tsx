@@ -24,7 +24,7 @@ const HeroSection = () => (
           </p>
           <ul className="flex gap-3 mt-10">
             <li>
-              <Link href="#">
+              <Link href="https://github.com/DuongPham-dev" target="_blank">
                 <GitHubIcon />
               </Link>
             </li>
@@ -36,10 +36,7 @@ const HeroSection = () => (
           </ul>
         </figcaption>
         <div className="w-60 h-60 md:w-72 md:h-80 self-center md:mr-3">
-          <ImageWithShadow
-            url="https://lh3.googleusercontent.com/a/ACg8ocJslstjFb0XDDX5Ica7ZjM7sKthf0prQM9VU2raPiGB991sESA0=s288-c-no"
-            alt="I'm Duong Pham"
-          />
+          <ImageWithShadow url="/images/user.jpg" alt="I'm Duong Pham" />
         </div>
       </figure>
     </div>

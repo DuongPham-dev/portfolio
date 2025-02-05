@@ -25,7 +25,7 @@ const ActionBarMobile = () => {
         <ListIcon />
       </button>
       {actionBarIsOpened && (
-        <section className="fixed inset-0 bg-white">
+        <section className="fixed inset-0 z-50 bg-white">
           <div className="flex justify-end px-2 py-1 border-b-[1px]">
             <button onClick={closeActionBar}>
               <CloseIcon />

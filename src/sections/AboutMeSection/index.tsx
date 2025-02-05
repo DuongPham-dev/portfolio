@@ -16,7 +16,7 @@ const AboutMeSection = () => (
     <div className="w-full flex flex-col md:flex-row gap-10 lg:gap-20">
       <div className="w-60 h-60 md:w-72 md:h-80 self-center md:self-start md:ml-3">
         <ImageWithShadow
-          url="https://lh3.googleusercontent.com/a/ACg8ocJslstjFb0XDDX5Ica7ZjM7sKthf0prQM9VU2raPiGB991sESA0=s288-c-no"
+          url="/images/user-1.jpg"
           alt="I'm Duong Pham"
           style={ImageWithShadowStyle.LEFT}
         />

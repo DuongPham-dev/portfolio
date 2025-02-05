@@ -8,7 +8,7 @@ import { SectionWrapper } from "@/components";
 import { SKILLS } from "@/constants";
 
 const SkillsSection = () => (
-  <SectionWrapper title="Skills">
+  <SectionWrapper id="skills" title="Skills">
     <h2 className="text-gray-500 text-lg text-center">
       The skills, tools and technologies I am really good at:
     </h2>

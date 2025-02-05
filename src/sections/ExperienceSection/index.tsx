@@ -1,7 +1,19 @@
 import React from "react";
 
-const ExperienceSection = () => {
-  return <div></div>;
-};
+// Components
+import { ExperienceCard, SectionWrapper } from "@/components";
+
+// Enums
+import { SectionWrapperColor } from "@/components/SectionWrapper/enum";
+
+const ExperienceSection = () => (
+  <SectionWrapper
+    id="experience"
+    title="Experience"
+    color={SectionWrapperColor.PRIMARY}
+  >
+    <ExperienceCard />
+  </SectionWrapper>
+);
 
 export default ExperienceSection;
