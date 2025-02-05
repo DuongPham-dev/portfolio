@@ -5,7 +5,7 @@ import ActionBarMobile from "./ActionBarMobile";
 import { ActionBarDesktop } from "./ActionBarDesktop";
 
 const Header = () => (
-  <header>
+  <header className="px-10">
     <ActionBarMobile />
     <ActionBarDesktop />
   </header>
