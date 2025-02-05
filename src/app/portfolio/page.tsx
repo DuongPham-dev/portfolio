@@ -1,12 +1,13 @@
 import React from "react";
 
 // Sections
-import { AboutMeSection, HeroSection } from "@/sections";
+import { AboutMeSection, HeroSection, SkillsSection } from "@/sections";
 
 const Portfolio = () => (
   <section className="flex flex-col gap-20">
     <HeroSection />
     <AboutMeSection />
+    <SkillsSection />
   </section>
 );
 

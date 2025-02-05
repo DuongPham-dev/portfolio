@@ -13,8 +13,8 @@ const AboutMeSection = () => (
     title="About me"
     color={SectionWrapperColor.PRIMARY}
   >
-    <div className="w-full flex flex-col justify-center md:justify-normal gap-10">
-      <div className="w-60 h-60 md:w-72 md:h-80 md:justify-items-start md:ml-3">
+    <div className="w-full flex flex-col md:flex-row gap-10 lg:gap-20">
+      <div className="w-60 h-60 md:w-72 md:h-80 self-center md:self-start md:ml-3">
         <ImageWithShadow
           url="https://lh3.googleusercontent.com/a/ACg8ocJslstjFb0XDDX5Ica7ZjM7sKthf0prQM9VU2raPiGB991sESA0=s288-c-no"
           alt="I'm Duong Pham"
@@ -22,7 +22,7 @@ const AboutMeSection = () => (
         />
       </div>
 
-      <div className="text-gray-500">
+      <div className="text-gray-500 flex-1">
         <h2 className="text-2xl text-zinc-900 font-bold pb-5">
           A Little About Me
         </h2>
